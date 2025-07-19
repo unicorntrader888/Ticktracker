@@ -3,16 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>TickTracker - Habit Tracker</title>
+  <title>TickTracker</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="app">
     <h1>TickTracker ✅</h1>
-    <input type="text" id="habitInput" placeholder="Add new habit..." />
-    <button onclick="addHabit()">Add</button>
+    <div class="input-group">
+      <input type="text" id="habitInput" placeholder="Enter a habit..." />
+      <button onclick="addHabit()">Add</button>
+    </div>
     <ul id="habitList"></ul>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
